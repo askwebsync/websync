@@ -5,7 +5,6 @@ module.exports = {
 		'./src/**/*.jsx',
 		'./src/**/*.html',
 		'./src/**/*.md',
-		'./node_modules/tw-elements/dist/js/**/*.js'
 	],
 	darkMode: 'class',
 	theme: {
@@ -47,5 +46,5 @@ module.exports = {
 	variants: {
 		extend: { opacity: ['disabled'] },
 	},
-	plugins: [require('tw-elements/dist/plugin')],
+	plugins: [],
 };
