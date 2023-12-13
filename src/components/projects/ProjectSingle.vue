@@ -6,8 +6,7 @@ export default {
 
 <template>
   <div
-    class="max-w-lg mx-auto bg-gray-700 cursor-auto transform transition duration-500 rounded-2xl box-shadow hover:scale-105"
-  >
+    class="max-w-lg mx-auto bg-gray-700 cursor-auto transform transition duration-500 rounded-2xl box-shadow hover:scale-105">
     <!-- <router-link
       custom
       :to="{
@@ -17,10 +16,7 @@ export default {
       v-slot="{ navigate }"
     > -->
     <div class="p-2">
-      <img
-        :src="project.img[0]"
-        class="overflow-hidden object-contain"
-      />
+      <img :src="project.img[0]" class="overflow-hidden object-contain" />
     </div>
     <!-- </router-link> -->
     <div class="p-4 border-t-2 border-black">
@@ -33,10 +29,8 @@ export default {
         v-slot="{ navigate }"
       > -->
       <div class="">
-        <h2
-          class="font-general-semibold text-xl font-semibold text-yellow cursor-auto mb-4"
-        >
-          {{ project.title }}
+        <h2 class="font-general-semibold text-xl font-semibold text-yellow cursor-auto mb-4">
+          {{ project.link }}
         </h2>
       </div>
       <!-- </router-link> -->
@@ -46,8 +40,7 @@ export default {
 </template>
 
 <style scoped>
-
-img{
+img {
   width: 300px;
   height: 300px;
 }

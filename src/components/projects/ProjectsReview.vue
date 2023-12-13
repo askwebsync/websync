@@ -38,9 +38,9 @@
                 >
                   <div class="w-full flex mb-6 items-center">
                     <div class="flex-grow pl-3">
-                      <h4 class="text-xl uppercase text-yellow">
+                      <h3 class="text-xl uppercase text-yellow">
                         Fatih Azka
-                      </h4>
+                      </h3>
                       <h5 class="text-base text-gray-400">Wisma52</h5>
                     </div>
                   </div>
@@ -57,9 +57,9 @@
                 >
                   <div class="w-full flex mb-6 items-center">
                     <div class="flex-grow pl-3">
-                      <h4 class="text-xl uppercase text-yellow">
+                      <h3 class="text-xl uppercase text-yellow">
                         Nabila Putri
-                      </h4>
+                      </h3>
                       <h5 class="text-base text-gray-400">Mitrasona</h5>
                     </div>
                   </div>

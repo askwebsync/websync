@@ -4,6 +4,7 @@ import ProjectsReview from "../components/projects/ProjectsReview.vue";
 import AppBanner from "../components/shared/AppBanner.vue";
 import AppService from "../components/shared/AppService.vue";
 import AppStep from "../components/shared/AppStep.vue"
+import AppFaqs from "../components/shared/AppFaqs.vue";
 
 export default {
   name: "Home",
@@ -12,7 +13,8 @@ export default {
     ProjectsReview,
     AppBanner,
     AppService,
-    AppStep
+    AppStep,
+    AppFaqs
     // AppPrice,
   },
 };
@@ -25,6 +27,7 @@ export default {
     <AppService />
     <AppStep />
     <ProjectsGrid />
+    <AppFaqs />
     <ProjectsReview />
 
 

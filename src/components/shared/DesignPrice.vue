@@ -23,7 +23,7 @@
               </h2>
               <h1 class="text-base text-white text-center pb-4">Start From</h1>
               <p class="text-xl text-white font-semibold text-center pb-6">
-                IDR 1,000,000,-
+                IDR 2,000,000,-
               </p>
             </div>
 

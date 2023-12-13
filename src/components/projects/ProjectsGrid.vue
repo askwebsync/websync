@@ -75,21 +75,14 @@ export default {
         </div>
       </div>
 
-      <div class="mt-6">
-        <div class="flex place-content-center border-b-2 border-gray-500 pb-3 gap-2 md:flex md:justify-between">
-          <div class="flex mr-2 md:mr-0">
-            <span class="hidden sm:block bg-primary-light p-1.5 shadow-sm rounded-md">
-              <i data-feather="search" class="text-ternary-dark w-6 h-6"></i>
-            </span>
-          </div>
+      <div class="mt-6 flex border-b-2 border-gray-500 pb-3 place-content-center">
           <select v-model="category" :name="select" :id="select"
-            class="w-full text-center font-general-medium px-4 py-1.5 border-1 border-gray-200 rounded-md text-sm bg-secondary-light focus:outline-none sm:text-md md:w-xs">
+            class="max-w-xl text-center font-general-medium px-4 py-1.5 md:py-3 rounded-md text-base text-white bg-gray-700 focus:outline-none">
             <option value class="text-sm sm:text-md">All Projects</option>
             <option v-for="option in selectOptions" :key="option" :value="option" class="sm:text-md">
               {{ option }}
             </option>
           </select>
-        </div>
       </div>
 
       <div class="flex flex-col gap-10 my-12 md:grid md:grid-cols-3 z">

@@ -72,18 +72,14 @@ export default {
 <template>
   <section class="bg-black">
     <nav id="nav" class="md:container md:mx-auto">
-      <!-- Header start -->
       <header class="md:flex md:justify-between md:items-center">
-        <!-- Header menu links and mdall screen hamburger menu -->
         <div class="flex justify-between items-center px-4 py-4 md:px-0">
-          <!-- Header logos -->
           <div>
             <router-link :to="{ name: 'home' }" class="focus:outline-none"><img src="@/assets/images/logo-1.png"
                 class="w-16 h-14 md:w-16 md:h-14 focus:outline-none" alt="Logo" />
             </router-link>
           </div>
 
-          <!-- Small screen hamburger menu -->
           <div class="md:hidden">
             <button @click="isOpen = !isOpen" type="button" class=" focus:outline-none" aria-label="Hamburger Menu">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" stroke="white">
@@ -98,12 +94,13 @@ export default {
           </div>
         </div>
 
-        <!-- Header links -->
+
         <div :class="isOpen ? 'block' : 'hidden'"
           class="px-5 py-3 justify-center items-center mt-0 md:p-0 md:ml-6 md:mt-3 md:flex md:shadow-none">
+
           <div class="text-left cursor-pointer">
             <a @click="dropdown = !dropdown"
-              class="inline-flex focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4 mb-1">
+              class="inline-flex focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4">
               Services
               <svg focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-1" role="img"
                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
@@ -113,36 +110,32 @@ export default {
               </svg>
             </a>
             <ul v-show="dropdown"
-              class="absolute bg-gray-700 text-base sm:contents float-left p-4 text-left rounded-base border-none focus:outline-none md:block">
+              class="absolute bg-gray-700 text-base sm:contents float-left p-5 text-left rounded-base border-none focus:outline-none md:block">
               <li>
                 <router-link :to="{ name: 'website' }" @click="dropdownClose"
-                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2"
+                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-3"
                   href="#">Website Development</router-link>
               </li>
               <li>
                 <router-link :to="{ name: 'apps' }" @click="dropdownClose"
-                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2"
+                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-3"
                   href="#">Apps Development</router-link>
               </li>
               <li>
                 <router-link :to="{ name: 'uiux' }" @click="dropdownClose"
-                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2"
+                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-3"
                   href="#">UI/UX</router-link>
               </li>
             </ul>
           </div>
           <router-link :to="{ name: 'projects' }" @click="toggleClose"
-            class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4 mb-1">
-            Portofolio</router-link>
-          <router-link :to="{ name: 'about' }" @click="toggleClose"
             class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4">
-            About
-          </router-link>
-            <router-link :to="{ name: 'contact' }" @click="toggleClose"
+            Portofolio</router-link>
+          <router-link :to="{ name: 'contact' }" @click="toggleClose"
             class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4">
             Contact
           </router-link>
-          
+
         </div>
       </header>
     </nav>

@@ -5,35 +5,16 @@ const projects = [
 		date: '30 May 2022',
 		category: 'Web Application',
 		img:
-			[require('@/assets/images/wisma-hp-x.png'),
-			require('@/assets/images/wisma52/Home.png'),
-			require('@/assets/images/wisma52/Fasilitas.png'),
-			require('@/assets/images/wisma52/Gallery.png'),
-			require('@/assets/images/wisma52/Price.png'),
-			require('@/assets/images/wisma52/Information.png')],
-		link: 'https://wisma52.com/'
+			[require('@/assets/images/wisma52/home-mobile.png')],
+		link: 'wisma52.com'
 	},
 	{
 		id: 2,
-		title: 'PT.Mitra Sona Persada',
+		title: 'PT.Mitra Sona',
 		date: '4 Agustus 2022',
 		category: 'Company Profile',
-		img: [require('@/assets/images/mitrasona/home.png'),
-		// require('@/assets/images/mental-health/awal.png'),
-		// require('@/assets/images/mental-health/profile.png'),
-		// require('@/assets/images/mental-health/home.png'),
-		// require('@/assets/images/mental-health/choose.png'),
-		// require('@/assets/images/mental-health/choose-1.png'),
-		// require('@/assets/images/mental-health/chat.png'),
-		// require('@/assets/images/mental-health/payment.png'),
-		// require('@/assets/images/mental-health/payment-succes-consult.png'),
-		// require('@/assets/images/mental-health/webinar-category.png'),
-		// require('@/assets/images/mental-health/webinar-detail.png'),
-		// require('@/assets/images/mental-health/webinar-consult.png'),
-		// require('@/assets/images/mental-health/webinar-payment.png'),
-		// require('@/assets/images/mental-health/webinar-succes-payment.png'),
-		],
-		link:''
+		img: [require('@/assets/images/mitrasona/home.png')],
+		link:'mitrasonapersada.com'
 	},
 	{
 		id: 3,
@@ -48,7 +29,7 @@ const projects = [
 		require('@/assets/images/photoApp/Search.png'),
 		require('@/assets/images/photoApp/Discover.png'),
 		require('@/assets/images/photoApp/Chat.png'),],
-		link: 'https://rafikarim1717.github.io/PhotoApp/'
+		link: '-'
 	},
 	{
 		id: 4,
@@ -70,7 +51,7 @@ const projects = [
 		require('@/assets/images/mental-health/webinar-payment.png'),
 		require('@/assets/images/mental-health/webinar-succes-payment.png'),
 		],
-		link:''
+		link:'-'
 	},
 	{
 		id: 5,
@@ -85,7 +66,7 @@ const projects = [
 		require('@/assets/images/habitual/mobile-project-5.png'),
 		require('@/assets/images/habitual/mobile-project-6.png'),
 		require('@/assets/images/habitual/mobile-project-7.png'),],
-		link: 'https://rafikarim1717.github.io/Habitual/'
+		link: '-'
 	},
 ];
 export default projects;

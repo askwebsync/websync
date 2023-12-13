@@ -21,10 +21,10 @@ export default {
 </script>
 
 <template>
-  <div class="">
+  <div class="flex flex-col">
     <AppHeader class="sticky top-0" />
     <router-view></router-view>
-    <AppFooter />
+    <AppFooter class="bottom-0" />
   </div>
 </template>
 
