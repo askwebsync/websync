@@ -21,7 +21,6 @@
 		"postcss-import": "^14.0.2",
 		"postcss-preset-env": "^6.7.0",
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-		"tw-elements": "^1.0.0-alpha12",
 		"vue": "^3.0.0",
 		"vue-backtotop": "^1.6.1",
 		"vue-my-photos": "^3.0.1",
